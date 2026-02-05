@@ -1,1 +1,38 @@
-<router-outlet />
+<header class="container-fluid" [ngStyle]="DarkModeFlag ? {'background': 'black'}: null">
+
+
+  <div class="row">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <img (click)="openProfile()" src="../assets/img/mepro.png" title="Your Profile" width="50px" height="50px" style="border-radius: 50%; border: 3px white solid; cursor: pointer;">
+    </div>
+    <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+      <i title="Change Mode" @if(LightModeFlag){} class="fa fa-moon-o" (click)="LightMode()" style="color: black; cursor: pointer; font-size: 50px !important;"></i>
+      <i title="Change Mode" @if(DarkModeFlag){} class="fa fa-moon-o" (click)="DarkMode()" style="color: white; cursor: pointer; font-size: 50px !important;"></i>
+    </div>
+  </div>
+
+
+</header>
+
+<main class="container-fluid" style="background-color: black; min-height: 100vh;">
+
+  <router-outlet></router-outlet>
+
+</main>
+
+<footer class="container-fluid xFooter" [ngStyle]="DarkModeFlag ? {'background': 'black','border-top': '1px solid white'}: null">
+  <b>Copyright © All Rights Reserved 2026 Sully Aladdin&#8482;</b>
+</footer>
+
+<!-- <div class="modal fade" id="PicModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" style="text-align: center;">
+      <div class="modal-body">
+        <img src="../assets/img/mepro.png" width="210px" height="300px" style="border: 5px solid #565e64;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" (click)="closeProfile()">Close</button>
+      </div>
+    </div>
+  </div>
+</div> -->

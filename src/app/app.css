@@ -1,0 +1,9 @@
+.xFooter {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
