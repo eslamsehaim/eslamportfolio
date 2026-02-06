@@ -1,9 +1,19 @@
 .xheader {
-  /* padding: 10px 0px 10px 0px; */
+  padding: 10px 0px 10px 0px;
+  overflow: hidden;
   text-align: center;
 }
 
+.xbody {
+  padding: 8% 10% 8% 10%;
+  width: 90%;
+  /* margin: 7% 0% 0% 0%; */
+  border-radius: 5%;
+  /* background: black; */
+}
+
 .xFooter {
+  font-size: medium !important;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -11,4 +21,106 @@
   padding: 10px;
   text-align: center;
   color: white;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 390px) {
+  .xbody {
+    text-align: center;
+    background: red;
+
+  }
+
+  .xFooter {
+    font-size: small !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 390px) {
+  .xbody {
+    text-align: center;
+    background: green;
+
+  }
+
+  .xFooter {
+    font-size: small !important;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 576px) {
+  .xbody {
+    text-align: center;
+    background: blue;
+
+  }
+
+  .xFooter {
+    font-size: medium !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+  .xbody {
+    text-align: center;
+    background: yellow;
+
+  }
+
+  .xFooter {
+    font-size: medium !important;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 992px) {
+  .xbody {
+    text-align: center;
+    background: purple;
+
+  }
+
+  .xFooter {
+    font-size: medium !important;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .xbody {
+    text-align: center;
+    background: fuchsia;
+
+  }
+
+  .xFooter {
+    font-size: medium !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .xbody {
+    text-align: unset;
+    background: white;
+  }
+
+  .xFooter {
+    font-size: medium !important;
+  }
+
+
 }
