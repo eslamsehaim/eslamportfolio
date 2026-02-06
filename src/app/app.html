@@ -1,22 +1,22 @@
-<header class="container-fluid" [ngStyle]="DarkModeFlag ? {'background': 'black'}: null">
+<header class="container-fluid xheader" [ngStyle]="DarkModeFlag ? {'background': 'black'}: null">
 
 
   <div class="row">
     <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-      <img (click)="openProfile()" src="../assets/img/mepro.png" title="Your Profile" width="50px" height="50px" style="border-radius: 50%; border: 3px white solid; cursor: pointer;">
+      <img (click)="openProfile()" src="/img/mepro.png" title="Your Profile" width="50px" height="50px" style="border-radius: 50%; border: 3px white solid; cursor: pointer;">
     </div>
     <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-      <i title="Change Mode" @if(LightModeFlag) class="fa fa-moon-o" (click)="LightMode()" style="color: black; cursor: pointer; font-size: 50px !important;"></i>
-      <i title="Change Mode" @if(DarkModeFlag) class="fa fa-moon-o" (click)="DarkMode()" style="color: white; cursor: pointer; font-size: 50px !important;"></i>
+      @if(LightModeFlag) { <i title="Change Mode" class="fa fa-moon-o" (click)="LightMode()" style="color: black; cursor: pointer; font-size: 50px !important;"></i> }
+      @if(DarkModeFlag) { <i title="Change Mode" class="fa fa-moon-o" (click)="DarkMode()" style="color: white; cursor: pointer; font-size: 50px !important;"></i> }
     </div>
   </div>
 
 
 </header>
 
-<main class="container-fluid" style="background-color: black; min-height: 100vh;">
+<main class="container-fluid" style="background-color: black; min-height: 100vh; width: 100%;">
 
-  <router-outlet/>
+  <router-outlet />
 
 </main>
 

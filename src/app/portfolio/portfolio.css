@@ -1,0 +1,373 @@
+.xbody {
+  padding: 8% 10% 8% 10%;
+  margin: 0% 10% 0% 10%;
+  border-radius: 5%;
+  background: white;
+}
+
+h3 {
+  font-size: 3rem;
+  color: rgba(43, 58, 85, 0.9);
+  animation: topIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgba(43, 58, 85, 0.9);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 5px;
+  animation: bottomIn 1.4s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+h1 span {
+  color: rgb(133, 40, 255);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: black;
+  margin-top: 20px;
+  animation: bottomIn 1.4s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.4s;
+  padding-bottom: 40px;
+}
+
+.btn-section {
+  justify-content: center;
+  display: flex;
+  gap: 50px;
+}
+
+.btn-section button {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height: 50px;
+  width: 300px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(43, 58, 85, 0.2);
+  animation: bottomIn 1.4s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+.btn-1 {
+  background-color: rgba(43, 58, 85, 0.9);
+  color: white;
+}
+
+.btn-2 {
+  background-color: transparent;
+  color: rgb(133, 40, 255);
+  border: 2px solid rgb(133, 40, 255);
+}
+
+.btn-section button:hover {
+  background-color: rgb(133, 40, 255);
+  color: white;
+}
+
+
+
+.hero-img1 {
+  width: 300px;
+  height: 300px;
+  margin: -90px 0 0 0;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-img2 {
+  width: 220px;
+  height: 130px;
+  margin: 180px 0px 0px 340px;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-img3 {
+  width: 300px;
+  height: 300px;
+  margin: 285px 0 0 0;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-img4 {
+  width: 300px;
+  height: 300px;
+  margin: 275px 0 0 300px;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-img5 {
+  width: 300px;
+  height: 135px;
+  margin: 0px 0px 0px 290px;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.hero-img6 {
+  width: 300px;
+  height: 155px;
+  margin: 185px 0 0 0;
+  position: absolute;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+/* Animation */
+@keyframes bottomIn {
+  from {
+    transform: translateY(250px);
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes topIn {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes imgIn {
+  from {
+    transform: translateY(250px) scale(0.8);
+  }
+
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+.imgopc {
+  opacity: 0.2 !important;
+  left: 0;
+}
+
+
+table {
+  text-align: center;
+  position: absolute;
+  z-index: 0;
+}
+
+
+.img1opc {
+  width: 100px;
+  height: 100px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.img2opc {
+  width: 150px;
+  height: 100px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.img3opc {
+  width: 150px;
+  height: 150px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.img4opc {
+  width: 150px;
+  height: 150px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.img5opc {
+  width: 200px;
+  height: 100px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.img6opc {
+  width: 200px;
+  height: 100px;
+  animation: imgIn 1.4s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+  .xbody {
+    text-align: center;
+
+  }
+
+  .imgs {
+    display: none;
+  }
+
+  .in {
+    display: block;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  .btn-section button {
+  font-size: 15px;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .xbody {
+    text-align: center;
+
+  }
+
+  .imgs {
+    display: none;
+  }
+
+  .in {
+    display: block;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .xbody {
+    text-align: center;
+
+  }
+
+  .imgs {
+    display: none;
+  }
+
+  .in {
+    display: block;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .xbody {
+    text-align: center;
+
+  }
+
+  .imgs {
+    display: none;
+  }
+
+  .in {
+    display: block;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .xbody {
+    text-align: center;
+  }
+
+  .imgs {
+    display: none;
+  }
+
+  .in {
+    display: block;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+  .xbody {
+    text-align: unset;
+  }
+
+  .imgs {
+    display: block;
+  }
+
+  .in {
+    display: none !important;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+}
