@@ -9,7 +9,7 @@
   width: 90%;
   /* margin: 7% 0% 0% 0%; */
   border-radius: 5%;
-  /* background: black; */
+  background: white;
 }
 
 .xFooter {
@@ -28,7 +28,7 @@
 @media only screen and (max-width: 390px) {
   .xbody {
     text-align: center;
-    background: red;
+    /* background: red; */
 
   }
 
@@ -42,7 +42,7 @@
 @media only screen and (min-width: 390px) {
   .xbody {
     text-align: center;
-    background: green;
+    /* background: green; */
 
   }
 
@@ -57,7 +57,7 @@
 @media only screen and (min-width: 576px) {
   .xbody {
     text-align: center;
-    background: blue;
+    /* background: blue; */
 
   }
 
@@ -71,7 +71,7 @@
 @media only screen and (min-width: 768px) {
   .xbody {
     text-align: center;
-    background: yellow;
+    /* background: yellow; */
 
   }
 
@@ -86,7 +86,7 @@
 @media only screen and (min-width: 992px) {
   .xbody {
     text-align: center;
-    background: purple;
+    /* background: purple; */
 
   }
 
@@ -101,7 +101,7 @@
 @media only screen and (min-width: 1200px) {
   .xbody {
     text-align: center;
-    background: fuchsia;
+    /* background: fuchsia; */
 
   }
 
@@ -115,7 +115,7 @@
 @media only screen and (min-width: 1400px) {
   .xbody {
     text-align: unset;
-    background: white;
+    /* background: white; */
   }
 
   .xFooter {
