@@ -188,36 +188,36 @@ table {
 }
 
 .img2opc {
-    width: 150px;
+    width: 200px;
     height: 100px;
     animation: imgIn 1.4s ease-in-out forwards;
     animation-delay: 0.2s;
 }
 
 .img3opc {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 135px;
     animation: imgIn 1.4s ease-in-out forwards;
     animation-delay: 0.2s;
 }
 
 .img4opc {
     width: 150px;
-    height: 150px;
+    height: 100px;
     animation: imgIn 1.4s ease-in-out forwards;
     animation-delay: 0.2s;
 }
 
 .img5opc {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     animation: imgIn 1.4s ease-in-out forwards;
     animation-delay: 0.2s;
 }
 
 .img6opc {
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     animation: imgIn 1.4s ease-in-out forwards;
     animation-delay: 0.2s;
 }
