@@ -256,7 +256,7 @@ table {
     }
 
     .in {
-        display: block;
+        display: none;
     }
 
     h3 {

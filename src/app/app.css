@@ -23,6 +23,33 @@
   color: white;
 }
 
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.htmlicon {
+  width: 30px;
+  height: 45px;
+}
+
+.eficon {
+  width: 50px;
+  height: 50px;
+}
+
+.sqlicon {
+  width: 40px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+.csicon {
+  width: 45px;
+  height: 40px;
+  margin-top: 5px;
+}
+
 /* Responsive */
 
 @media only screen and (max-width: 390px) {
