@@ -33,8 +33,8 @@
 }
 
 .htmlicon {
-  width: 30px;
-  height: 45px;
+  width: 35px;
+  height: 50px;
   animation: leftIn 1.6s ease-in-out forwards;
     animation-delay: 0.3s;
 }
@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 390px) {
   .xbody {
-    text-align: center;
+    text-align: unset !important;
     /* background: red; */
 
   }
@@ -113,7 +113,7 @@
 
 @media only screen and (min-width: 390px) {
   .xbody {
-    text-align: center;
+    text-align: unset !important;
     /* background: green; */
 
   }
@@ -128,7 +128,7 @@
 
 @media only screen and (min-width: 576px) {
   .xbody {
-    text-align: center;
+    text-align: unset !important;
     /* background: blue; */
 
   }
@@ -142,7 +142,7 @@
 
 @media only screen and (min-width: 768px) {
   .xbody {
-    text-align: center;
+    text-align: center !important;
     /* background: yellow; */
 
   }
@@ -157,7 +157,7 @@
 
 @media only screen and (min-width: 992px) {
   .xbody {
-    text-align: center;
+    text-align: center !important;
     /* background: purple; */
 
   }
@@ -172,7 +172,7 @@
 
 @media only screen and (min-width: 1200px) {
   .xbody {
-    text-align: center;
+    text-align: center !important;
     /* background: fuchsia; */
 
   }
@@ -186,7 +186,7 @@
 
 @media only screen and (min-width: 1400px) {
   .xbody {
-    text-align: unset;
+    text-align: unset !important;
     /* background: white; */
   }
 
