@@ -11,24 +11,5 @@ import { CommonModule } from '@angular/common';
 export class App {
   protected readonly title = signal('eslamportfolio');
 
-  LightModeFlag: boolean = false;
-  DarkModeFlag: boolean = true;
-
-  LightMode() {
-    this.LightModeFlag = false;
-    this.DarkModeFlag = true;
-  }
-
-  DarkMode() {
-    this.LightModeFlag = true;
-    this.DarkModeFlag = false;
-  }
-
-  openProfile() {
-    // $('#PicModal').modal('show');
-  }
-
-  closeProfile() {
-    // $('#PicModal').modal('hide');
-  }
+  
 }

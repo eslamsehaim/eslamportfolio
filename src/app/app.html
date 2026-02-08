@@ -1,38 +1,25 @@
-<header class="container-fluid xheader" [ngStyle]="DarkModeFlag ? {'background': 'black'}: null">
+<header class="container-fluid xheader" [ngStyle]="true ? {'background': 'black'}: null">
 
 
   <div class="row">
-    <!-- <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
-      <img (click)="openProfile()" src="img/mepro.png" title="Your Profile" width="40px" height="40px" style="border-radius: 50%; border: 3px white solid; cursor: pointer;">
-    </div> -->
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
-      <img class="icon" src="img/AngularLogo2.png" title="Maintained by a dedicated team at Google, Angular is a web framework that empowers developers to build fast, reliable applications that users love.">
+      <img class="angularicon" src="img/AngularLogo2.png" title="Maintained by a dedicated team at Google, Angular is a web framework that empowers developers to build fast, reliable applications that users love.">
     </div>
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
       <img class="htmlicon" src="img/htmlsmall.png" title="The foundational technologies for building web pages">
     </div>
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
-      <img class="icon" src="img/aspnetdark.png" title="Active Server Pages .NET is an open-source, server-side web application framework developed by Microsoft for building modern web applications, services, and dynamic web pages">
-
+      <img class="aspicon" src="img/aspnetdark.png" title="Active Server Pages .NET is an open-source, server-side web application framework developed by Microsoft for building modern web applications, services, and dynamic web pages">
     </div>
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
       <img class="sqlicon" src="img/sqlnew.png" title="A relational database management system (RDBMS) developed by Microsoft, designed to store, manage, and retrieve data for applications using T-SQL.">
-
     </div>
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
-
       <img class="eficon" src="img/efnew3.png" title="An open-source, object-relational mapper (ORM) for .NET that allows developers to interact with databases using .NET objects">
-
     </div>
     <div class="col-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
       <img class="csicon" src="img/Csharp_Logo.png" title="A modern, general-purpose, object-oriented programming language developed by Microsoft">
-
-
     </div>
-    <!-- <div class="col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1">
-      @if(LightModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="LightMode()" style="color: white; cursor: pointer; font-size: 30px !important;"></i> }
-      @if(DarkModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="DarkMode()" style="color: white; cursor: pointer; font-size: 30px !important;"></i> }
-    </div> -->
   </div>
 
 
@@ -46,6 +33,6 @@
 
 <br><br><br>
 
-<footer class="container-fluid xFooter" [ngStyle]="DarkModeFlag ? {'background': 'black','border-top': '1px solid white'}: null">
+<footer class="container-fluid xFooter" [ngStyle]="true ? {'background': 'black','border-top': '1px solid white'}: null">
   <b>Copyright © All Rights Reserved 2026 Sully Aladdin&#8482;</b>
 </footer>

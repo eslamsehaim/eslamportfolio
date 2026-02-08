@@ -1,4 +1,16 @@
 <section>
+
+    <div class="row" style="background: yellow;">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="text-align: left;">
+            <img (click)="openProfile()" src="img/mepro.png" title="Your Profile" width="50px" height="50px" style="border-radius: 50%; border: 5px rgb(133, 40, 255) solid; cursor: pointer;">
+        </div>
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6" style="text-align: right;">
+            @if(LightModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="LightMode()" style="color: black; cursor: pointer; font-size: 30px !important; margin-top: 10px;"></i> }
+            @if(DarkModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="DarkMode()" style="color: black; cursor: pointer; font-size: 30px !important; margin-top: 10px;"></i> }
+        </div>
+    </div>
+<br>
+
     <div class="row">
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6">
@@ -41,18 +53,14 @@
             </p>
 
             <div class="btn-section">
-                <button class="btn-1" (click)="openProjects()">Projects
-                    <i class="fa-solid fa-code"></i>
-                </button>
-                <button class="btn-2" (click)="openLinkedin()">Let's Talk
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                </button>
+                <button class="btn-1" (click)="openProjects()">Projects</button>
+                <button class="btn-2" (click)="openLinkedin()">Let's Talk</button>
             </div>
         </div>
         <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6 imgs">
 
             <div style="display: flex; justify-content: center; text-align: center;">
-                <table style="width: 35%; height: 50%;">
+                <table style="width: 30%; height: 40%;">
                     <tbody>
                         <tr>
                             <td>
