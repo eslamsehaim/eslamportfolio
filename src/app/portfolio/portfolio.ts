@@ -12,7 +12,7 @@ export class Portfolio {
   DarkModeFlag: boolean = true;
   
   openLinkedin() {
-    window.open('https://www.linkedin.com/in/eslam-mohammed-alaa-717156101/', '_blank', 'noopener,noreferrer');
+    window.open('https://www.linkedin.com/in/eslam-mohammed-alaa-717156101/', '_blank');
   }
 
   
