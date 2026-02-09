@@ -1,19 +1,25 @@
 <section>
 
-    <div class="row">
-        <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1" style="text-align: left;">
-            <img (click)="openProfile()" src="img/mepro.png" title="Your Profile" width="40px" height="40px" style="border-radius: 50%; cursor: pointer;">
+    <div class="row" style="padding-bottom: 10px;">
+        <div class="col-3 col-sm-3 col-md-2 col-lg-2 col-xl-1 col-xxl-1" style="text-align: left;">
+            <img (click)="openProfile()" src="img/mepro.png" title="Your Profile" width="60px" height="80px" style="border-radius: 10%; cursor: pointer;">
         </div>
-        <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1" style="text-align: left;">
+        <div class="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-11 col-xxl-11" style="text-align: left; color: rgb(133, 40, 255); font-size: 11px; margin-top: 15px;">
+            Experience: +8 Years
+            <br>
+            University: Ain Shams University
+            <br>
+            Education: BSc. Computer Science
+        </div>
+        <!-- <div class="col-3 col-sm-2 col-md-2 col-lg-1 col-xl-1 col-xxl-1" style="text-align: left;">
             @if(LightModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="LightMode()" style="color: black; cursor: pointer; font-size: 35px !important; margin-top: 3px;"></i> }
             @if(DarkModeFlag) { <i title="Change Mode" class="fa-solid fa-moon" (click)="DarkMode()" style="color: black; cursor: pointer; font-size: 35px !important; margin-top: 3px;"></i> }
-        </div>
+        </div> -->
     </div>
-    <br>
 
     <div class="row">
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
             <div style="display: flex; justify-content: center; text-align: center;">
                 <table class="in" style="display: none;">
@@ -49,16 +55,17 @@
             <h3>Hi, I'm Eslam Aladdin!</h3>
             <h1>Full Stack Web <span>Developer</span></h1>
             <p>
-                A passionate and creative web developer known for crafting visually stunning and user-friendly websites. With a keen eye for design and a deep understanding of modern web development, he transforms ideas into beautifully functional digital experiences.
+                A passionate and creative web developer known for crafting visually stunning and user-friendly websites.
+                With a keen eye for design and a deep understanding of modern web development, he transforms ideas into beautifully functional digital experiences.
+                Responsible for the end-to-end development of web applications, managing both user-facing front-end interfaces and server-side back-end logic, including databases and API integrations.
             </p>
 
             <div class="btn-section">
-                <button class="btn-1" (click)="openProjects()">Projects</button>
-                <button class="btn-2" (click)="openLinkedin()">Let's Talk</button>
-                <a href="https://www.linkedin.com/in/eslam-mohammed-alaa-717156101/" target="_blank" rel="noopener noreferrer">lets talk</a>
+                <!-- <button class="Tobutton btn-1" (click)="openProjects()">Projects</button> -->
+                <a class="Tobutton" href="https://www.linkedin.com/in/eslam-mohammed-alaa-717156101/" target="_blank" rel="noopener noreferrer">Let's Talk</a>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6 imgs">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-6 imgs" style="display: none">
 
             <div style="display: flex; justify-content: center; text-align: center;">
                 <table style="width: 30%; height: 40%;">
