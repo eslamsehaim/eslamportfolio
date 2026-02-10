@@ -73,6 +73,10 @@
     animation-delay: 0.7s;
 }
 
+img {
+    cursor: help;
+}
+
 @keyframes rightIn {
     from {
         transform: translateX(-100px);
