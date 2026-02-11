@@ -37,7 +37,7 @@ p {
     animation: bottomIn 1.4s ease-in-out forwards;
     opacity: 0;
     animation-delay: 0.4s;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 .btn-section {
