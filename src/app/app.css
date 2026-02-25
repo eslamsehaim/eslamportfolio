@@ -2,14 +2,18 @@
   padding: 10px 0px 10px 0px;
   overflow: hidden;
   text-align: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
 }
 
 .xbody {
   padding: 3% 5% 3% 5%;
-  width: 85%;
+  /* width: 85%; */
   /* margin: 7% 0% 0% 0%; */
-  border-radius: 10px;
+  /* border-radius: 10px; */
   background: white;
+  margin-top: 70px;
   /* background-image: url("bg.png"); */
   /* background-size: cover; */
 }
@@ -132,7 +136,7 @@ img {
 
 @media only screen and (min-width: 576px) {
   .xbody {
-    text-align: unset !important;
+    text-align: center !important;
     /* background: blue; */
 
   }
@@ -190,7 +194,7 @@ img {
 
 @media only screen and (min-width: 1400px) {
   .xbody {
-    text-align: unset !important;
+    text-align: center !important;
     /* background: white; */
   }
 
